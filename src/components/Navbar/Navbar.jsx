@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav>
         <div id="nav-links">
-            <li><a href="#home">First Channel</a></li>
+            <li><a href="./components/HomeHero/FirstChannel">First Channel</a></li>
             <li><a href="#">|</a></li>
             <li><a href="#about">Second channel</a></li>
         </div>

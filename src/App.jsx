@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import HomeHero from './components/HomeHero/HomeHero'
+import FirstChannel from './components/HomeHero/FirstChannel'
 import './App.css'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <HomeHero/>
+      <FirstChannel />
     </div>
   )
 }
