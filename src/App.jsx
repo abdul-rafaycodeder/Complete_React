@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import HomeHero from './components/HomeHero/HomeHero'
+import './App.css'
 
 const App = () => {
   return (
     <div>
-      <h1>rafay</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo debitis eligendi iste delectus fuga, velit perferendis ipsam temporibus mollitia aliquid nesciunt aut commodi vitae, possimus est? Voluptatem, est facilis?</p>
-      all the best for you
+      <Navbar />
+      <HomeHero/>
     </div>
   )
 }
